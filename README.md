@@ -1,2 +1,9 @@
 # animation_classifier
-A fastai/Voila web-app to classify the user-provided image into one of these categories: anime, Disney animation, soviet animation
+A fastai/Voila web-app to classify the user-provided image into one of these classes: anime, Disney animation, soviet animation
+
+# Optionally: create any image classifier from it
+One can easily modify the code to make it work with other classes too. See the [Jupyter notebook](animation_classifier.ipynb) for details. In short, you just need to:
+- replace the classes names with your own (e.g. "cats", "dogs")
+- replace the Bing image search API key (you can get a 7-days demo [for free](https://forums.fast.ai/t/getting-the-bing-image-search-key/67417))
+- uncomment one line of code: # get_new_model()
+- run all cells in the notebook to generate the new trained model
