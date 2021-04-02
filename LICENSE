@@ -1,4 +1,8 @@
-                    GNU GENERAL PUBLIC LICENSE
+The code is based on the code from this repo: https://github.com/fastai/fastbook , 
+which was released under a free licence (GPL-3). 
+The code changes include: making the code work for any classes, refactoring.
+
+                      GNU GENERAL PUBLIC LICENSE
                        Version 3, 29 June 2007
 
  Copyright (C) 2007 Free Software Foundation, Inc. <https://fsf.org/>
